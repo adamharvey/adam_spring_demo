@@ -1,3 +1,1 @@
-# adam_spring_demo
-
-Initial commit; test spring app.
+Readme for Adam's Spring Demo app:

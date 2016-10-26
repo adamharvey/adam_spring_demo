@@ -7,4 +7,4 @@ RUN pwd
 RUN ls
 RUN find . -name "*demo*.jar"
 RUN find . -name "*demo*.jar" | xargs ls -l
-CMD java -jar /build/libs/adam_spring_demo-0.0.1-SNAPSHOT.jar
+CMD java -jar /build/libs/adam_spring_demo-0.0.1-SNAPSHOT.jar --server.port=$PORT
